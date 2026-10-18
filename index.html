@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Main | WPE Online Journal</title>
+		<link rel="shortcut icon" href="../IMAGES/Icons/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="../CSS/global.css">
+		<link rel="stylesheet" href="../CSS/darktheme.css" id="changeTheme">
+	</head>
+
+	<body>
+		<div class="topsection">
+			<!--Header Section-->
+			<div class="header">
+				<h2>WPE Online Journal</h2>
+			</div>
+
+			<!--Navigation Section (hamburger menu)-->
+			<div class="nav">
+				<details class="menu">
+					<summary class="menubtn" aria-label="Open menu"><span></span><span></span><span></span></summary>
+					<div class="menupanel">
+						<a href="index.html" id="active">Home</a>
+						<a href="HTML/church.html">Church</a>
+						<a href="HTML/classroom.html">Classroom</a>
+						<a href="HTML/community.html">Community</a>
+						<a href="HTML/court.html">Court</a>
+						<a href="HTML/culture.html">Culture</a>
+						<div class="menutheme">
+							<p><img src="../IMAGES/Icons/themeicon1.png" alt="Theme Icon" id="themeicon">Theme</p>
+							<div>
+								<button class="themebtn" onclick="darkTheme()">Dark</button>
+								<button class="themebtn" onclick="lightTheme()">Light</button>
+							</div>
+						</div>
+					</div>
+				</details>
+			</div>
+		</div>
+
+		<!--Main Section-->
+		<div class="main">
+			<div class="herophotocontainer">
+				<div class="herotext">
+					<p>Karl Niño L. Salapa</p>
+					<h1>Whole Person<br>Education</h1>
+					<p>My online journal across Church, Classroom, Community, Court, and Culture.</p>
+					<p><b>GE 10A (2018) - D, BSIT - 1</b></p>
+				</div>
+			</div>
+			<div class="section">
+				<div class="introduction">
+					<h2>About this journal</h2>
+					<p>I am a first-year BSIT student at Silliman University who is eager to learn, grow, and explore new experiences. Through Whole Person Education, I hope to develop not only academically but also socially, emotionally, and spiritually. I want to become more confident, build meaningful relationships, discover new interests, and learn valuable lessons that I can apply in my daily life. Ultimately, I hope WPE will help me become a better version of myself and prepare me for the challenges of college and beyond.
+</p>
+					<br>
+					<p>To complete WPE, I need at least 40 points, with 8 points from each of the five categories. Every entry in this journal has a reflection and photos as evidence of my participation.</p>
+				</div>
+				<div class="stats">
+					<div class="card statcard"><h3>40</h3><span>points needed in total</span></div>
+					<div class="card statcard"><h3>8</h3><span>points needed per category</span></div>
+					<div class="card statcard"><h3>55</h3><span>points earned in this journal</span></div>
+					<div class="card statcard"><h3>31</h3><span>events in this journal</span></div>
+				</div>
+				<div class="section1">
+					<h2>The five categories</h2>
+					<div class="cards">
+				<a href="../HTML/church.html" class="card catcard">
+					<h3>Church</h3>
+					<span class="carddate">5 events</span>
+					<span class="cardpoints">9 points</span>
+					<span class="cardtag">Worship, faith, and service.</span>
+					<span class="cardhint"></span>
+				</a>
+				<a href="../HTML/classroom.html" class="card catcard">
+					<h3>Classroom</h3>
+					<span class="carddate">7 events</span>
+					<span class="cardpoints">13 points</span>
+					<span class="cardtag">Learning beyond the lecture.</span>
+					<span class="cardhint"></span>
+				</a>
+				<a href="../HTML/community.html" class="card catcard">
+					<h3>Community</h3>
+					<span class="carddate">5 events</span>
+					<span class="cardpoints">10 points</span>
+					<span class="cardtag">Serving and showing up for others.</span>
+					<span class="cardhint"></span>
+				</a>
+				<a href="../HTML/court.html" class="card catcard">
+					<h3>Court</h3>
+					<span class="carddate">4 events</span>
+					<span class="cardpoints">10 points</span>
+					<span class="cardtag">Sports, teamwork, and discipline.</span>
+					<span class="cardhint"></span>
+				</a>
+				<a href="../HTML/culture.html" class="card catcard">
+					<h3>Culture</h3>
+					<span class="carddate">10 events</span>
+					<span class="cardpoints">13 points</span>
+					<span class="cardtag">Arts, heritage, and creative expression.</span>
+					<span class="cardhint"></span>
+				</a>
+					</div>
+				</div>
+				<div class="timeline">
+					<h2>Journal snapshots</h2>
+					<img src="../IMAGES/Photos/churchsnap.png" alt="Journal snapshot" id="timelinephoto">
+					<div class="timelinebtns">
+						<button class="timelinebtn" onclick="document.getElementById('timelinephoto').src = '../IMAGES/Photos/churchsnap.png'">Church</button>
+						<button class="timelinebtn" onclick="document.getElementById('timelinephoto').src = '../IMAGES/Photos/classroomsnap.png'">Classroom</button>
+						<button class="timelinebtn" onclick="document.getElementById('timelinephoto').src = '../IMAGES/Photos/communitysnap.png'">Community</button>
+						<button class="timelinebtn" onclick="document.getElementById('timelinephoto').src = '../IMAGES/Photos/courtsnap.png'">Court</button>
+						<button class="timelinebtn" onclick="document.getElementById('timelinephoto').src = '../IMAGES/Photos/culturesnap.png'">Culture</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Footer Section-->
+		<div class="footer">
+			<p>
+				&copy; 2026 <a href="https://linktr.ee/karlzzfilms" target="_blank">Karlzz Films</a>, Dumaguete City. All Rights Reserved.
+			</p>
+		</div>
+		<script src="../JS/functionality.js"></script>
+	</body>
+</html>
