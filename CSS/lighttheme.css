@@ -1,0 +1,12 @@
+/* Light theme: cream background, dark text, maroon accent */
+:root {
+	--bg: #f6efdf;
+	--bg2: #efe4cc;
+	--bar: rgba(246, 239, 223, 0.92);
+	--card: #fffaf0;
+	--text: #2b1b1b;
+	--muted: #6b5a52;
+	--accent: #800020;
+	--onaccent: #f6efdf;
+	--shadow: rgba(128, 0, 32, 0.28);
+}
